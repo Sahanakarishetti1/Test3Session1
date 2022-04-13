@@ -1,1 +1,12 @@
-
+gcc -g p2original.c
+ ./a.out
+enter the num and den of fraction
+2
+3
+enter the num and den of fraction
+2
+4
+enter the num and den of fraction
+2
+5
+the large no is 2.000000/3.000000
