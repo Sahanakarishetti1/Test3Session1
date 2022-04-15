@@ -1,1 +1,15 @@
-
+gcc -g p4original.c
+ ./a.out
+enter the degree of the polynomial
+3
+enter the value of x
+2
+enter the coefficient 4
+2
+enter the coefficient 3
+3
+enter the coefficient 2
+5
+enter the coefficient 1
+1
+2*x^3+3*x^2+5*x^1+1 at 2.000000 is 78.000000

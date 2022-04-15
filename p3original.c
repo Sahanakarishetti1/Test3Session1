@@ -1,5 +1,5 @@
 #include<stdio.h>
-int input_n_and_r(int *n,int*r)
+void input_n_and_r(int *n,int*r)
 {
  printf("enter 2 num\n");
   scanf("%d%d",n,r);
