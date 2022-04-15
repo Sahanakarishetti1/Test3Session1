@@ -1,1 +1,12 @@
-
+gcc -g p5original.c
+ ./a.out
+enter the array size
+3
+enter the array element 0
+1
+enter the array element 1
+3
+enter the array element 2
+6
+Largest element is present at index 2 and its value is 6.
+ 
