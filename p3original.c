@@ -1,44 +1,37 @@
 #include<stdio.h>
 int input_n_and_r(int *n,int*r)
 {
- printf("enter 2 num");
-  scanf("%d,%d",n,r);
+ printf("enter 2 num\n");
+  scanf("%d%d",n,r);
+  
 }
 int ncr(int n,int r)
 {
   
-  int fact()
+  int factorial(int Number)
   {
-  int n =1,i;
-    if(n=0)
-    {
-      return n;
-    }
-    else
-    {
-      for (i = 1; i <= n; i++)
-	{
-       n=n*i;
-	}
-    }
-    return(n);
-int result;
- result =fact(n)/fact(r)*fact(n-r);
-    }
 
-
+  if (Number == 0 || Number == 1)
+    return 1;
+  else
+    return Number * factorial (Number -1);
+  
+  int ncr;
+ ncr = factorial(n)/ (factorial(r) * factorial(n - r));
     }
-void output(int n,int r,int result)
+}
+
+void output(int n,int r,int nCr)
 {
-  printf("%dc%d is %d",n,r,result);
+  printf("%dc%d is %d",n,r,nCr);
 }
 int main()
 {
   int n,r;
   input_n_and_r(&n,&r);
-  int result;
-  result=ncr(n,r);
-  output(n,r,result);
+  int nCr;
+  nCr=ncr(n,r);
+  output(n,r,nCr);
   return 0;
   
 }

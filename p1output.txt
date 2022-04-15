@@ -1,1 +1,10 @@
-
+gcc -g p1original.c
+ ./a.out
+enter the fraction one a/b in the form a_b
+4
+3
+enter the fraction two a/b in the form a_b
+5
+4
+the sum of fractions 4/3 and 5/4 is given by 31/12
+ 
